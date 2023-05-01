@@ -1,0 +1,150 @@
+body{
+    margin-left: 1cm; 
+    margin-right: 1cm;
+}
+
+.intestazione{
+    display: flex;
+    justify-content: space-around;
+    margin-top:5px;
+    font-size: 20px; ;
+}
+.accedere>button{
+    text-align: center;
+    padding-left: 0cm;
+    margin-top :18px; ; 
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0cm;
+    margin-bottom:0%;
+    padding-bottom: 0%;
+}
+.menu>p:nth-of-type(odd){
+
+    color:red;
+}
+.menu>p:nth-of-type(even){
+    color: fuchsia;
+}
+
+.post>h1{
+    font-style: italic;
+    color:red ;
+    font-size:50px ;
+    margin-top:0cm;
+    padding-bottom:5px ;
+    padding-top:30px ;
+}
+.post>a{
+    font-size:20px ;
+    font-weight: bolder;
+    color:red;
+}
+.post{
+    
+    background-color:#f2f4f7c4;
+    border-radius: 4px;
+    padding-left:40px;
+    padding-bottom:20px ;
+}
+.postmarco{
+    background-color: yellow;
+}
+#notizie{
+    display: flex;
+   justify-content:space-between;
+    gap: 10px;
+    margin-top: 20px ;
+   
+}
+.notizia1{
+    display: flex;
+    border-radius: 2%;
+    border-style: groove;
+   
+
+}
+.articoloa{
+   
+    padding-left:15px ;
+    padding-top:20px ;
+    padding-bottom:30px ;
+    padding-right:15px ;
+}
+.notizia1>.immagini>img{
+    height:250px ;
+    width:250px ;
+}
+.articoloa>span{
+    font-weight: bolder;
+    color: blue;
+}
+.articoloa>:nth-child(2){
+    font-size:30px ;
+    font-weight: bolder;
+    padding-bottom: 0%;
+}
+
+.articoloa>article{
+    padding-bottom:5px ;
+}
+.notizia2{
+    display: flex;
+    border-radius: 2%;
+    border-style: groove;
+   
+
+}
+.articolob{
+    padding-left:15px ;
+    padding-top:20px ;
+    padding-bottom:30px ;
+    padding-right:10px ;
+}
+.notizia2>.immagini>img{
+    height:250px ;
+    width:250px ;
+}
+.articolob>span{
+    font-weight: bolder;
+    color: blue;
+}
+.articolob>:nth-child(2){
+    font-size:30px ;
+    font-weight: bolder;
+    padding-bottom: 0%;
+}
+
+.articolob>article{
+    padding-bottom:5px ;
+}
+.esempi{
+    display: flex;
+    justify-content: space-between;
+    margin-right:0% ;
+    
+}
+.lista{
+    margin-left:40px ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.mesi{
+    display: block;
+    
+}
+.mesi>p:nth-of-type(odd){
+    color: red;
+}
+.mesi>p:nth-of-type(even){
+    color:blue ;
+}
+
+#nuovi{
+    background-color: yellow;
+
+}
